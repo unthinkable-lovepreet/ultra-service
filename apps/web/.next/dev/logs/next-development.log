@@ -1,0 +1,5 @@
+{"timestamp":"00:00:03.683","source":"Server","level":"LOG","message":"> Server ready on http://0.0.0.0:3005 (dev)"}
+{"timestamp":"00:00:05.118","source":"Server","level":"LOG","message":"[daemon] connected: \"cjJH5kfAAeAWNDT_AAAB\""}
+{"timestamp":"00:00:31.056","source":"Server","level":"LOG","message":"[web] connected: \"ALRhxxMB45lsoYSoAAAD\""}
+{"timestamp":"00:01:28.665","source":"Server","level":"LOG","message":"[web] disconnected: \"ALRhxxMB45lsoYSoAAAD\""}
+{"timestamp":"00:01:29.045","source":"Server","level":"LOG","message":"[web] connected: \"8k6m_EPOvgtbrXFwAAAF\""}
