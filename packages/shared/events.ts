@@ -3,7 +3,7 @@ export const NAMESPACE = {
   DAEMON: "/daemon",
 } as const;
 
-export const MAX_TOOL_OUTPUT_BYTES = 5_000;
+export const MAX_TOOL_OUTPUT_BYTES = 250_000;//TODO : dicuss later, this is a temporary limit to prevent the UI from crashing when a tool returns a very large output. We can implement pagination or streaming later if needed.
 
 export type Event =
   | { type: "prompt"; promptId: string; text: string }
